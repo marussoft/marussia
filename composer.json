@@ -12,14 +12,15 @@
             "email": "mail@milinsky.ru"
         }
     ],
+    "support": {
+        "docs": "https://docs.marussia.org/"
+    },
     "require": {
         "php": ">=7.0.0",
         "marussia/http-kernel": "dev-master"
     },
+    "minimum-stability": "dev",
     "config": {
-        "platform": {
-            "php": "7.0.1"
-        },
         "preferred-install": {
             "*": "dist"
         },
