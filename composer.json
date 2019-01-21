@@ -30,5 +30,11 @@
         "psr-4": {
             "App\\": "app/"
         }
+    },
+    "extra": {
+        "marussia": {
+            "allow-contrib": true,
+            "require": "1.0.*"
+        }
     }
 } 
