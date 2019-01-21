@@ -4,4 +4,4 @@
 require_once dirname('__DIR__') . '/../bootstrap.php';
 
 // Запускаем систему
-Marussia\HttpKernel\App::start();
+Marussia\HttpKernel\App::run();
