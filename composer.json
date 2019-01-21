@@ -1,7 +1,7 @@
 {
     "name": "marussia/marussia",
     "type": "project",
-    "description": "Событийно-ониентированная система управления контентом",
+    "description": "Событийно-ориентированная система управления контентом",
     "license": "MIT",
     "keywords": [
         "marussia"
@@ -19,6 +19,15 @@
     "autoload": {
         "psr-4": {
             "App\\": "app/"
+        }
+    },
+    "conflict": {
+        "marussia/marussia": "*"
+    },
+    "extra": {
+        "marussia": {
+            "allow-contrib": true,
+            "require": "dev-master"
         }
     }
 } 
