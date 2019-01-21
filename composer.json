@@ -16,6 +16,15 @@
         "php": ">=7.0.0",
         "marussia/http-kernel": "dev-master"
     },
+    "config": {
+        "platform": {
+            "php": "7.0.1"
+        },
+        "preferred-install": {
+            "*": "dist"
+        },
+        "sort-packages": true
+    },
     "autoload": {
         "psr-4": {
             "App\\": "app/"
@@ -27,7 +36,7 @@
     "extra": {
         "marussia": {
             "allow-contrib": true,
-            "require": "dev-master"
+            "require": "1.0.0"
         }
     }
 } 
