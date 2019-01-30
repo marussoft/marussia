@@ -12,7 +12,8 @@ class Home extends Controller
 
     public function run($route)
     {
-        echo 'Hello, World';
+//         echo 'Task';
+        App::command('Service.Content', 'show', 'Page');
     }
 
 }
