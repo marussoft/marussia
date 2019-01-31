@@ -4,10 +4,12 @@ declare(strict_types=1);
 
 namespace App\Services\Content;
 
+use Marussia\HttpKernel\App as App;
+
 class Content
 {
-    public function show()
+    public function show($data)
     {
-        echo 'Hello, I am Content Service!';
+        App::view('content', ['title' => 'Добро пожаловать в Marussia!', 'text' => 'Этот текст сгененирован сервисом Content']);
     }
 }

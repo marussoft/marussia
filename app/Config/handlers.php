@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'Kernel' => 'Marussia\HttpKernel\Handlers\Kernel',
+    'App' => 'Marussia\HttpKernel\Handlers\App',
     'Service' => 'Marussia\HttpKernel\Handlers\Service'
 ];

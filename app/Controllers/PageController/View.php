@@ -7,7 +7,7 @@ namespace App\Controllers\PageController;
 use Marussia\HttpKernel\App as App;
 use Marussia\HttpKernel\Base\Controller as Controller;
 
-class Home extends Controller
+class View extends Controller
 {
 
     public function run($route)
@@ -16,3 +16,4 @@ class Home extends Controller
     }
 
 }
+ 
