@@ -1,7 +1,7 @@
 <?php
 
 define ('NAME', '');
-define ('MASTER_KEY', '');
+define ('AUTH_KEY', '');
 define ('DESCRIPTION', '');
 define ('EMAIL', '');
 define ('HOST', '');
