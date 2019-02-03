@@ -10,6 +10,6 @@ class Content
 {
     public function show($data)
     {
-        App::view('content', ['title' => 'Добро пожаловать в Marussia!', 'text' => 'Этот текст сгененирован сервисом Content']);
+        App::view('content', ['title' => 'Добро пожаловать в Marussia!', 'text' => 'Событийно-ориентированная, компонентная платформа для веб-приложений на PHP7']);
     }
 }
