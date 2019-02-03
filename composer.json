@@ -34,7 +34,7 @@
     "extra": {
         "marussia": {
             "allow-contrib": true,
-            "require": "1.0.*"
+            "require": "0.0.*"
         }
     }
 } 
