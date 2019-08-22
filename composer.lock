@@ -1,0 +1,177 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "75d8057e169bb85eaa6b3443c69ca861",
+    "packages": [
+        {
+            "name": "marussia/dependency-injection",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/marussoft/dependency-injection.git",
+                "reference": "b7bbe31542f6cb9387c28979ac61fb72517f1b11"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/marussoft/dependency-injection/zipball/b7bbe31542f6cb9387c28979ac61fb72517f1b11",
+                "reference": "b7bbe31542f6cb9387c28979ac61fb72517f1b11",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Marussia\\DependencyInjection\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mikhail Ilinsky",
+                    "email": "mail@milinsky.ru"
+                }
+            ],
+            "description": "Recursive dependency injection container",
+            "keywords": [
+                "dependency-injection"
+            ],
+            "time": "2019-07-18T05:36:23+00:00"
+        },
+        {
+            "name": "marussia/http-kernel",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/marussoft/http-kernel.git",
+                "reference": "78c79e876270395d58450eba2b35fa81822ab716"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/marussoft/http-kernel/zipball/78c79e876270395d58450eba2b35fa81822ab716",
+                "reference": "78c79e876270395d58450eba2b35fa81822ab716",
+                "shasum": ""
+            },
+            "require": {
+                "marussia/dependency-injection": "~1.0",
+                "marussia/request": "~1.0",
+                "marussia/router": "~1.0",
+                "php": "^7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Marussia\\HttpKernel\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mikhail Ilinsky",
+                    "email": "mail@milinsky.ru"
+                }
+            ],
+            "description": "Marussia http kernel",
+            "keywords": [
+                "http-kernel"
+            ],
+            "time": "2019-08-21T08:13:25+00:00"
+        },
+        {
+            "name": "marussia/request",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/marussoft/request.git",
+                "reference": "6bc902b2940f984ca39ab18ae9e637866d4bd96a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/marussoft/request/zipball/6bc902b2940f984ca39ab18ae9e637866d4bd96a",
+                "reference": "6bc902b2940f984ca39ab18ae9e637866d4bd96a",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Marussia\\Request\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mikhail Ilinsky",
+                    "email": "mail@milinsky.ru"
+                }
+            ],
+            "description": "Marussia request",
+            "keywords": [
+                "request"
+            ],
+            "time": "2019-08-20T06:04:15+00:00"
+        },
+        {
+            "name": "marussia/router",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/marussoft/router.git",
+                "reference": "053a1d476a43efee537a079ced8c38dd5ab14d96"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/marussoft/router/zipball/053a1d476a43efee537a079ced8c38dd5ab14d96",
+                "reference": "053a1d476a43efee537a079ced8c38dd5ab14d96",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Marussia\\Router\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mikhail Ilinsky",
+                    "email": "mail@milinsky.ru"
+                }
+            ],
+            "description": "Marussia router",
+            "keywords": [
+                "router"
+            ],
+            "time": "2019-08-21T08:17:14+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

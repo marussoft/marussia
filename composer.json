@@ -1,40 +1,7 @@
 {
-    "name": "marussia/marussia",
-    "type": "project",
-    "description": "Событийно-ориентированная система управления контентом",
-    "license": "MIT",
-    "keywords": [
-        "marussia"
-    ],
-    "authors": [
-        {
-            "name": "Mikhail Ilinsky",
-            "email": "mail@milinsky.ru"
-        }
-    ],
-    "support": {
-        "docs": "https://docs.marussia.org/"
-    },
     "require": {
-        "php": ">=7.0.0",
-        "marussia/http-kernel": "dev-master"
-    },
-    "minimum-stability": "dev",
-    "config": {
-        "preferred-install": {
-            "*": "dist"
-        },
-        "sort-packages": true
-    },
-    "autoload": {
-        "psr-4": {
-            "App\\": "app/"
-        }
-    },
-    "extra": {
-        "marussia": {
-            "allow-contrib": true,
-            "require": "0.0.*"
-        }
+        "marussia/dependency-injection": "^1.0",
+        "marussia/request": "^1.0",
+        "marussia/http-kernel": "^1.0"
     }
-} 
+}
