@@ -16,8 +16,7 @@
         "docs": "https://docs.marussia.org/"
     },
     "require": {
-        "php": ">=7.0.0",
-        "marussia/http-kernel": "dev-master"
+        "marussia/application-kernel": "^1.0"
     },
     "minimum-stability": "dev",
     "config": {

@@ -1,0 +1,563 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "c97a5366a63272072cbee22001bb55c5",
+    "packages": [
+        {
+            "name": "marussia/application-kernel",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/marussoft/application-kernel.git",
+                "reference": "f314db35b3311f0722686e8db8572db3cb38eff4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/marussoft/application-kernel/zipball/f314db35b3311f0722686e8db8572db3cb38eff4",
+                "reference": "f314db35b3311f0722686e8db8572db3cb38eff4",
+                "shasum": ""
+            },
+            "require": {
+                "marussia/dependency-injection": "~1.0",
+                "marussia/request": "~1.0",
+                "marussia/response": "~1.0",
+                "marussia/router": "~1.0",
+                "marussia/template": "~1.0",
+                "php": "^7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Marussia\\ApplicationKernel\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mikhail Ilinsky",
+                    "email": "mail@milinsky.ru"
+                }
+            ],
+            "description": "Marussia application kernel",
+            "keywords": [
+                "application-kernel"
+            ],
+            "time": "2019-09-10T15:35:15+00:00"
+        },
+        {
+            "name": "marussia/dependency-injection",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/marussoft/dependency-injection.git",
+                "reference": "0d0f2275f72dd7f35c30fc5406251e08ec9314c7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/marussoft/dependency-injection/zipball/0d0f2275f72dd7f35c30fc5406251e08ec9314c7",
+                "reference": "0d0f2275f72dd7f35c30fc5406251e08ec9314c7",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Marussia\\DependencyInjection\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mikhail Ilinsky",
+                    "email": "mail@milinsky.ru"
+                }
+            ],
+            "description": "Recursive dependency injection container",
+            "keywords": [
+                "dependency-injection"
+            ],
+            "time": "2019-09-11T00:12:45+00:00"
+        },
+        {
+            "name": "marussia/event-bus",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/marussoft/event-bus.git",
+                "reference": "247250d9f06324e440869a4237da4a082065384d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/marussoft/event-bus/zipball/247250d9f06324e440869a4237da4a082065384d",
+                "reference": "247250d9f06324e440869a4237da4a082065384d",
+                "shasum": ""
+            },
+            "require": {
+                "marussia/dependency-injection": "~1.0",
+                "php": "^7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Marussia\\EventBus\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mikhail Ilinsky",
+                    "email": "mail@milinsky.ru"
+                }
+            ],
+            "description": "Marussia event bus implementation",
+            "keywords": [
+                "event-bus"
+            ],
+            "time": "2019-09-10T01:12:57+00:00"
+        },
+        {
+            "name": "marussia/hook",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/marussoft/hook.git",
+                "reference": "5ea8b45da3f0a435355c0b789f39b6e17f77da26"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/marussoft/hook/zipball/5ea8b45da3f0a435355c0b789f39b6e17f77da26",
+                "reference": "5ea8b45da3f0a435355c0b789f39b6e17f77da26",
+                "shasum": ""
+            },
+            "require": {
+                "marussia/dependency-injection": "~1.0",
+                "php": "^7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Marussia\\Hook\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mikhail Ilinsky",
+                    "email": "mail@milinsky.ru"
+                }
+            ],
+            "description": "Marussia hook implementation",
+            "keywords": [
+                "HOOK"
+            ],
+            "time": "2019-09-10T00:45:23+00:00"
+        },
+        {
+            "name": "marussia/http-kernel",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/marussoft/http-kernel.git",
+                "reference": "78c79e876270395d58450eba2b35fa81822ab716"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/marussoft/http-kernel/zipball/78c79e876270395d58450eba2b35fa81822ab716",
+                "reference": "78c79e876270395d58450eba2b35fa81822ab716",
+                "shasum": ""
+            },
+            "require": {
+                "marussia/dependency-injection": "~1.0",
+                "marussia/request": "~1.0",
+                "marussia/router": "~1.0",
+                "php": "^7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Marussia\\HttpKernel\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mikhail Ilinsky",
+                    "email": "mail@milinsky.ru"
+                }
+            ],
+            "description": "Marussia http kernel",
+            "keywords": [
+                "http-kernel"
+            ],
+            "time": "2019-08-21T08:13:25+00:00"
+        },
+        {
+            "name": "marussia/request",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/marussoft/request.git",
+                "reference": "01063fb8cb5e5dfd85ef24a578e398389a5cf334"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/marussoft/request/zipball/01063fb8cb5e5dfd85ef24a578e398389a5cf334",
+                "reference": "01063fb8cb5e5dfd85ef24a578e398389a5cf334",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Marussia\\Request\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mikhail Ilinsky",
+                    "email": "mail@milinsky.ru"
+                }
+            ],
+            "description": "Marussia request",
+            "keywords": [
+                "request"
+            ],
+            "time": "2019-08-20T06:04:15+00:00"
+        },
+        {
+            "name": "marussia/response",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/marussoft/response.git",
+                "reference": "67ad410b3b2e16e25f2ad4f872b4a6b5429b6c67"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/marussoft/response/zipball/67ad410b3b2e16e25f2ad4f872b4a6b5429b6c67",
+                "reference": "67ad410b3b2e16e25f2ad4f872b4a6b5429b6c67",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Marussia\\Response\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mikhail Ilinsky",
+                    "email": "mail@milinsky.ru"
+                }
+            ],
+            "description": "Marussia response",
+            "keywords": [
+                "response"
+            ],
+            "time": "2019-09-11T00:46:57+00:00"
+        },
+        {
+            "name": "marussia/router",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/marussoft/router.git",
+                "reference": "053a1d476a43efee537a079ced8c38dd5ab14d96"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/marussoft/router/zipball/053a1d476a43efee537a079ced8c38dd5ab14d96",
+                "reference": "053a1d476a43efee537a079ced8c38dd5ab14d96",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Marussia\\Router\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mikhail Ilinsky",
+                    "email": "mail@milinsky.ru"
+                }
+            ],
+            "description": "Marussia router",
+            "keywords": [
+                "router"
+            ],
+            "time": "2019-08-21T08:17:14+00:00"
+        },
+        {
+            "name": "marussia/template",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/marussoft/template.git",
+                "reference": "5af25ddcd9e1e79b01daf1766280a54810f5ff8a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/marussoft/template/zipball/5af25ddcd9e1e79b01daf1766280a54810f5ff8a",
+                "reference": "5af25ddcd9e1e79b01daf1766280a54810f5ff8a",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Marussia\\Template\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mikhail Ilinsky",
+                    "email": "mail@milinsky.ru"
+                }
+            ],
+            "description": "Marussia template",
+            "keywords": [
+                "template"
+            ],
+            "time": "2019-01-31T12:09:17+00:00"
+        },
+        {
+            "name": "symfony/polyfill-ctype",
+            "version": "v1.12.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-ctype.git",
+                "reference": "550ebaac289296ce228a706d0867afc34687e3f4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/550ebaac289296ce228a706d0867afc34687e3f4",
+                "reference": "550ebaac289296ce228a706d0867afc34687e3f4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "suggest": {
+                "ext-ctype": "For best performance"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.12-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Ctype\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Gert de Pagter",
+                    "email": "BackEndTea@gmail.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill for ctype functions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "ctype",
+                "polyfill",
+                "portable"
+            ],
+            "time": "2019-08-06T08:03:45+00:00"
+        },
+        {
+            "name": "symfony/polyfill-mbstring",
+            "version": "v1.12.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-mbstring.git",
+                "reference": "b42a2f66e8f1b15ccf25652c3424265923eb4f17"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/b42a2f66e8f1b15ccf25652c3424265923eb4f17",
+                "reference": "b42a2f66e8f1b15ccf25652c3424265923eb4f17",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "suggest": {
+                "ext-mbstring": "For best performance"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.12-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Mbstring\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill for the Mbstring extension",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "mbstring",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "time": "2019-08-06T08:03:45+00:00"
+        },
+        {
+            "name": "twig/twig",
+            "version": "v2.11.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twigphp/Twig.git",
+                "reference": "699ed2342557c88789a15402de5eb834dedd6792"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/699ed2342557c88789a15402de5eb834dedd6792",
+                "reference": "699ed2342557c88789a15402de5eb834dedd6792",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0",
+                "symfony/polyfill-ctype": "^1.8",
+                "symfony/polyfill-mbstring": "^1.3"
+            },
+            "require-dev": {
+                "psr/container": "^1.0",
+                "symfony/debug": "^2.7",
+                "symfony/phpunit-bridge": "^3.4.19|^4.1.8|^5.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.11-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Twig_": "lib/"
+                },
+                "psr-4": {
+                    "Twig\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "role": "Lead Developer",
+                    "email": "fabien@symfony.com",
+                    "homepage": "http://fabien.potencier.org"
+                },
+                {
+                    "name": "Armin Ronacher",
+                    "role": "Project Founder",
+                    "email": "armin.ronacher@active-4.com"
+                },
+                {
+                    "name": "Twig Team",
+                    "role": "Contributors",
+                    "homepage": "https://twig.symfony.com/contributors"
+                }
+            ],
+            "description": "Twig, the flexible, fast, and secure template language for PHP",
+            "homepage": "https://twig.symfony.com",
+            "keywords": [
+                "templating"
+            ],
+            "time": "2019-06-18T15:37:11+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
