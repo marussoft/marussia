@@ -2,4 +2,4 @@
 
 use Marussia\Router\Route;
 
-Route::get('/')->handler('Test')->action('Home')->name('home.show')->match();
+Route::get('/')->handler('Page')->action('Home')->name('home.show')->match();
